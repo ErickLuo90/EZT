@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "buildd": "webpack --mode development",
     "builds": "webpack --mode production",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --mode development --open"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,6 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.0.4",
     "jquery": "^3.3.1",
-    "popper": "^1.0.1",
     "popper.js": "^1.12.9",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

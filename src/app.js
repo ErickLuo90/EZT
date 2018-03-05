@@ -24,7 +24,8 @@ class StockList extends React.Component {
         <div class="list-group">
           <StockTicker symbol="AAPL" price="170" />
           <StockTicker symbol="GOOGL" price="200" />
-          <StockTicker symbol="GOOGL" price="200" />
+          <StockTicker symbol="MSFT" price="100" />
+          <StockTicker symbol="NTES" price="100" />
         </div>
       </div>
     )
